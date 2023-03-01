@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PPDB Tamtama</string>
+    <string-array name="gender">
+        <item>L</item>
+        <item>P</item>
+    </string-array>
+    <string-array name="jurusan">
+        <item>TKJ</item>
+        <item>AKL</item>
+        <item>Listrik</item>
+        <item>Pengelasan</item>
+        <item>Pemesinan</item>
+    </string-array>
+</resources>

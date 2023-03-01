@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DataActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:text="Data Diri Calon Pendaftar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:id="@+id/etIdP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null" />
+
+        <EditText
+            android:id="@+id/etKode"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kode"
+            android:inputType="none"
+            android:editable="false"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="24dp"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="24dp"/>
+
+        <EditText
+            android:id="@+id/etNis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIS"
+            android:inputType="number"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="24dp"/>
+
+        <EditText
+            android:id="@+id/etNisn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NISN"
+            android:inputType="number"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="24dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Pilih Jenis Kelamin : "/>
+            <Spinner
+                android:id="@+id/etJk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/etTempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Tempat Lahir"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_date"
+            android:text="Pilih Tanggal"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/etAgama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Agama"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="24dp"/>
+
+        <EditText
+            android:id="@+id/etNIK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="NIK"
+            android:inputType="number"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="24dp"/>
+
+        <EditText
+            android:id="@+id/etNoTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="No Telepon"
+            android:inputType="number"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="24dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="24dp"/>
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Alamat"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="24dp"/>
+
+        <Button
+            android:id="@+id/btnKirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kirim"/>
+    </LinearLayout>
+</LinearLayout>
